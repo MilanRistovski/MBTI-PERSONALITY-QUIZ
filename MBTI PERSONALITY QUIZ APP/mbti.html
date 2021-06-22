@@ -1,0 +1,1719 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Personality Test</title>
+        <!-- ANIMATE CSS -->
+        <!-- <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
+        <!-- FONTAWESOME -->
+        <!-- <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Latest compiled and minified CSS -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+        <!-- Optional theme -->
+        	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+        <!-- GOOGLE FONT -->
+        <!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> -->
+        <!-- CUSTOM -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <!-- BODY -->
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1>
+                        <span class="highlight">MBTI</span> Personality Test
+                    </h1>
+                </div>
+
+                <div class="hamIcon">
+                    <h1>&#9776;</h1>
+                </div>
+                <nav class="MainMenu">
+                    <ul>
+                        <li><a href="main.html">Home</a></li>
+                        <li class="current"><a href="mbti.html">Quiz</a></li>
+                        <li><a href="types.html">Types</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="start_btn" id="start-btn">
+            <button id="submit-btn" class="btn btn-primary btn-lg">Start Now</button>
+        </div>
+
+        <div class="info_box" id="infobox">
+            
+            <div class="info_title">
+                
+                <span class="spani">Guidelines for the quiz</span>
+            </div>
+
+            <div class="info_list">
+                <div class="info">1. You will have to pick only ONE option</div>
+                <div class="info">2. Please be as honest and objective as possible</div>
+                <div class="info">3. When answering, always think of general situations in your life, not just specific aspects</div>
+                <div class="info">4. Something Something Something</div>
+                <div class="info">5. Someone Someone Someone</div>
+            </div>
+        </div>
+        <!-- Judger/Perceiver -->
+
+        <div id="questionshere" class="questionGroup1" style="display:none; text-align:center">
+            <p style="font-weight:bold; color:#034EA2;" class="question">You implement rigid, disciplined day-to-day regular activity instead of functioning based on sudden sparks of energy</p> 
+            <!-- Si points for agree -->
+            <br>
+        <div class="something">
+            <input type="radio" id="question1a1" name="question1" class="JudgerPerceiver" value="100"> 
+            <label for="question1a1" class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" id="mobile-break">
+            <input type="radio" id="question1a2" name="question1" class="JudgerPerceiver" value="66.6666">
+            <label for="question1a2" class="radio_label" id="agree">Agree</label><br class="mobile_break" id="mobile-break">
+            <input type="radio" id="question1a3" name="question1" class="JudgerPerceiver" value="33.333">
+            <label for="question1a3" class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" id="mobile-break">
+            <input type="radio" id="question1a4" name="question1" class="JudgerPerceiver" value="0"> 
+            <label for="question1a4" class="radio_label" id="neutral">Neutral</label><br class="mobile_break" id="mobile-break">
+            <input type="radio" id="question1a5" name="question1" class="JudgerPerceiver" value="-33.333">
+            <label for="question1a5" class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" id="mobile-break">
+            <input type="radio" id="question1a6" name="question1" class="JudgerPerceiver" value="-66.6666">
+            <label for="question1a6" class="radio_label" id="disagree">Disagree</label><br class="mobile_break" id="mobile-break">
+            <input type="radio" id="question1a7" name="question1" class="JudgerPerceiver" value="-100"> 
+            <label for="question1a7" class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+          
+            <br>
+            <p style="font-weight:bold; color:#034EA2;" class="question">You don't have a tendency to do things at the last minute?</p> 
+            
+        <div class="something"> 
+            <input type="radio" id="question2a1" name="question2" class="JudgerPerceiver" value="100"> 
+            <label for="question2a1" class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" id="mobile-break">
+            <input type="radio" id="question2a2" name="question2" class="JudgerPerceiver" value="66.6666">
+            <label for="question2a2" class="radio_label" id="agree">Agree</label><br class="mobile_break" id="mobile-break">
+            <input type="radio" id="question2a3" name="question2" class="JudgerPerceiver" value="33.333">
+            <label for="question2a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" id="mobile-break">
+            <input type="radio" id="question2a4" name="question2" class="JudgerPerceiver" value="0"> 
+            <label for="question2a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" id="mobile-break">
+            <input type="radio" id="question2a5" name="question2" class="JudgerPerceiver" value="-33.333">
+            <label for="question2a5"class="radio_label">Partially Disagree</label><br class="mobile_break" id="mobile-break">
+            <input type="radio" id="question2a6" name="question2" class="JudgerPerceiver" value="-66.6666">
+            <label for="question2a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break" id="mobile-break">
+            <input type="radio" id="question2a7" name="question2" class="JudgerPerceiver" value="-100"> 
+            <label for="question2a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+            <br>
+        <p style="font-weight:bold; color:#034EA2;" class="question">You prefer to do plan out things ahead of time</p> 
+        <div class="something">
+             <!-- Te Points for agree  -->
+            <input type="radio" id="TeQuestion1a1" name="TeQuestion1" class="JudgerPerceiver" value="100" tag="TeQuestion"> 
+            <label for="TeQuestion1a1" class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" >
+            <input type="radio" id="TeQuestion1a2" name="TeQuestion1" class="JudgerPerceiver" value="66.666" tag="TeQuestion">
+            <label for="TeQuestion1a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion1a3" name="TeQuestion1" class="JudgerPerceiver" value="33.333" tag="TeQuestion">
+            <label for="TeQuestion1a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion1a4" name="TeQuestion1" class="JudgerPerceiver" value="0" tag="TeQuestion"> 
+            <label for="TeQuestion1a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion1a5" name="TeQuestion1" class="JudgerPerceiver" value="-33.333" tag="TeQuestion">
+            <label for="TeQuestion1a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion1a6" name="TeQuestion1" class="JudgerPerceiver" value="-66.6666" tag="TeQuestion">
+            <label for="TeQuestion1a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion1a7" name="TeQuestion1" class="JudgerPerceiver" value="-100" tag="TeQuestion"> 
+            <label for="TeQuestion1a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+            <br>
+        <p style="font-weight:bold; color:#034EA2;" class="question">You are extremely and strictly task oriented</p> 
+        <div class="something">    
+            <!-- Se points for agree -->
+            <input type="radio" id="SeQuestion1a1" name="SeQuestion1" value="100" tag="SeQuestion"> 
+            <label for="SeQuestion1a1" class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion1a2" name="SeQuestion1" value="66.666" tag="SeQuestion">
+            <label for="SeQuestion1a2" class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion1a3" name="SeQuestion1"  value="33.333" tag="SeQuestion">
+            <label for="SeQuestion1a3" class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion1a4" name="SeQuestion1" value="0" tag="SeQuestion"> 
+            <label for="SeQuestion1a4" class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion1a5" name="SeQuestion1" value="-33.333" tag="SeQuestion">
+            <label for="SeQuestion1a5" class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion1a6" name="SeQuestion1" value="-66.6666" tag="SeQuestion">
+            <label for="SeQuestion1a6" class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion1a7" name="SeQuestion1" value="-100" tag="SeQuestion"> 
+            <label for="SeQuestion1a7" class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+            <br>
+        <p style="font-weight:bold; color:#034EA2;" class="question">You like to make lists of things to do</p> 
+        <div class="something">
+            <!-- Te points for agree -->
+            <input type="radio" id="TeQuestion2a1" name="TeQuestion2" class="JudgerPerceiver" value="100" tag="TeQuestion"> 
+            <label for="TeQuestion2a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion2a2" name="TeQuestion2" class="JudgerPerceiver" value="66.666" tag="TeQuestion">
+            <label for="TeQuestion2a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion2a3" name="TeQuestion2" class="JudgerPerceiver" value="33.333" tag="TeQuestion">
+            <label for="TeQuestion2a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion2a4" name="TeQuestion2" class="JudgerPerceiver" value="0"> 
+            <label for="TeQuestion2a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion2a5" name="TeQuestion2" class="JudgerPerceiver" value="-33.333" tag="TeQuestion">
+            <label for="TeQuestion2a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion2a6" name="TeQuestion2" class="JudgerPerceiver" value="-66.6666" tag="TeQuestion">
+            <label for="TeQuestion2a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion2a7" name="TeQuestion2" class="JudgerPerceiver" value="-100" tag="TeQuestion"> 
+            <label for="TeQuestion2a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+            <br>
+            <p style="font-weight:bold; color:#034EA2;" class="question">You have a "work first, play later" approach?</p>
+        <div class="something"> 
+            <input type="radio" id="question6a1" name="question6" class="JudgerPerceiver" value="100"> 
+            <label for="question6a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question6a2" name="question6" class="JudgerPerceiver" value="66.666">
+            <label for="question6a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question6a3" name="question6" class="JudgerPerceiver" value="33.333">
+            <label for="question6a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question6a4" name="question6" class="JudgerPerceiver" value="0"> 
+            <label for="question6a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question6a5" name="question6" class="JudgerPerceiver" value="-33.333">
+            <label for="question6a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question6a6" name="question6" class="JudgerPerceiver" value="-66.6666">
+            <label for="question6a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question6a7" name="question6" class="JudgerPerceiver" value="-100"> 
+            <label for="question6a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+            <br>
+            <p style="font-weight:bold; color:#034EA2;" class="question">At times you focus too much on the goal so that you miss new information?</p>
+        <div class="something">
+            <input type="radio" id="question7a1" name="question7" class="JudgerPerceiver" value="100"> 
+            <label for="question7a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question7a2" name="question7" class="JudgerPerceiver" value="66.666">
+            <label for="question7a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question7a3" name="question7" class="JudgerPerceiver" value="33.333">
+            <label for="question7a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question7a4" name="question7" class="JudgerPerceiver" value="0"> 
+            <label for="question7a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question7a5" name="question7" class="JudgerPerceiver" value="-33.333">
+            <label for="question7a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question7a6" name="question7" class="JudgerPerceiver" value="-66.6666">
+            <label for="question7a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question7a7" name="question7" class="JudgerPerceiver" value="-100"> 
+            <label for="question7a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+
+        <p style="font-weight:bold; color:#034EA2;" class="question">You DON'T Procrastinate</p>
+        <div class="something">
+            <!-- Te points for agree -->
+            <input type="radio" id="TeQuestion3a1" name="TeQuestion3" class="JudgerPerceiver" value="100" tag="TeQuestion"> 
+            <label for="TeQuestion3a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion3a2" name="TeQuestion3" class="JudgerPerceiver" value="66.666" tag="TeQuestion">
+            <label for="TeQuestion3a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion3a3" name="TeQuestion3" class="JudgerPerceiver" value="33.333" tag="TeQuestion">
+            <label for="TeQuestion3a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion3a4" name="TeQuestion3" class="JudgerPerceiver" value="0" tag="TeQuestion"> 
+            <label for="TeQuestion3a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion3a5" name="TeQuestion3" class="JudgerPerceiver" value="-33.333" tag="TeQuestion">
+            <label for="TeQuestion3a5" class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion3a6" name="TeQuestion3" class="JudgerPerceiver" value="-66.6666" tag="TeQuestion">
+            <label for="TeQuestion3a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion3a7" name="TeQuestion3" class="JudgerPerceiver" value="-100" tag="TeQuestion"> 
+            <label for="TeQuestion3a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;" class="question">You would despise a Surprise Birthday Party</p> 
+        <div class="something">
+            
+            <input type="radio" id="question9a1" name="question9" class="JudgerPerceiver" value="100"> 
+            <label for="question9a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question9a2" name="question9" class="JudgerPerceiver" value="66.666">
+            <label for="question9a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question9a3" name="question9" class="JudgerPerceiver" value="33.333">
+            <label for="question9a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question9a4" name="question9" class="JudgerPerceiver" value="0"> 
+            <label for="question9a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question9a5" name="question9" class="JudgerPerceiver" value="-33.333">
+            <label for="question9a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question9a6" name="question9" class="JudgerPerceiver" value="-66.6666">
+            <label for="question9a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="question9a7" name="question9" class="JudgerPerceiver" value="-100"> 
+            <label for="question9a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+            <br>
+        <p style="font-weight:bold; color:#034EA2;" class="question">You have a "The Early Bird Gets The Worm / Koj рано рани, две среќи граби" approach</p> 
+        <div class="something">
+            
+            <!-- Te points for agree -->
+            <input type="radio" id="TeQuestion4a1" name="TeQuestion4" class="JudgerPerceiver" value="100" tag="TeQuestion"> 
+            <label for="TeQuestion4a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion4a2" name="TeQuestion4" class="JudgerPerceiver" value="66.666" tag="TeQuestion">
+            <label for="TeQuestion4a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion4a3" name="TeQuestion4" class="JudgerPerceiver" value="33.333" tag="TeQuestion">
+            <label for="TeQuestion4a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion4a4" name="TeQuestion4" class="JudgerPerceiver" value="0" tag="TeQuestion"> 
+            <label for="TeQuestion4a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion4a5" name="TeQuestion4" class="JudgerPerceiver" value="-33.333" tag="TeQuestion">
+            <label for="TeQuestion4a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion4a6" name="TeQuestion4" class="JudgerPerceiver" value="-66.6666" tag="TeQuestion">
+            <label for="TeQuestion4a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="TeQuestion4a7" name="TeQuestion4" class="JudgerPerceiver" value="-100" tag="TeQuestion"> 
+            <label for="TeQuestion4a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+
+            <br><br>
+            <button id="next-btn" class="btn btn-primary btn-lg" style="text-align:center;">Next >></button>
+        </div>
+
+
+
+
+        <!-- EXTROVERT/INTROVERT -->
+
+        <div id="questionshere2" style="display:none; text-align:center">
+            <p style="font-weight:bold; color:#034EA2;">You prefer gatherings of 3 really close friends, instead of 8 not-so-close ones?</p> 
+            <div class="something">
+                  
+                  <input type="radio" id="question11a1" name="question11" value="100" class="IntrovertExtrovert"> 
+                  <label for="question11a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+                  <input type="radio" id="question11a2" name="question11" value="66.666" class="IntrovertExtrovert">
+                  <label for="question11a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+                  <input type="radio" id="question11a3" name="question11" value="33.333" class="IntrovertExtrovert">
+                  <label for="question11a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" style="display:none;">
+                  <input type="radio" id="question11a4" name="question11" value="0" class="IntrovertExtrovert"> 
+                  <label for="question11a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" style="display:none;">
+                  <input type="radio" id="question11a5" name="question11" value="-33.333" class="IntrovertExtrovert">
+                  <label for="question11a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" style="display:none;">
+                  <input type="radio" id="question11a6" name="question11" value="-66.6666" class="IntrovertExtrovert">
+                  <label for="question11a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break" style="display:none;">
+                  <input type="radio" id="question11a7" name="question11" value="-100" class="IntrovertExtrovert"> 
+                  <label for="question11a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            </div>
+            <br>
+            <p style="font-weight:bold; color:#034EA2;">You are a lonesome person?</p>
+            <div class="something">
+                
+                <input type="radio" id="question12a1" name="question12" value="100" class="IntrovertExtrovert"> 
+                <label for="question12a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question12a2" name="question12" value="66.666" class="IntrovertExtrovert">
+                <label for="question12a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question12a3" name="question12" value="33.333" class="IntrovertExtrovert">
+                <label for="question12a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question12a4" name="question12" value="0" class="IntrovertExtrovert"> 
+                <label for="question12a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question12a5" name="question12" value="-33.333" class="IntrovertExtrovert">
+                <label for="question12a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question12a6" name="question12" value="-66.6666" class="IntrovertExtrovert">
+                <label for="question12a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question12a7" name="question12" value="-100" class="IntrovertExtrovert"> 
+                <label for="question12a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            </div>
+            <br>
+            <p style="font-weight:bold; color:#034EA2;">You are a melancholic person</p>
+            <div class="something">
+                
+             <!-- Fi Points for agree  -->
+                <input type="radio" id="FiQuestion1a1" name="FiQuestion1" value="100" class="IntrovertExtrovert" tag="FiQuestion"> 
+                <label for="FiQuestion1a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FiQuestion1a2" name="FiQuestion1" value="66.666" class="IntrovertExtrovert" tag="FiQuestion">
+                <label for="FiQuestion1a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FiQuestion1a3" name="FiQuestion1" value="33.333" class="IntrovertExtrovert" tag="FiQuestion">
+                <label for="FiQuestion1a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FiQuestion1a4" name="FiQuestion1" value="0" class="IntrovertExtrovert" tag="FiQuestion"> 
+                <label for="FiQuestion1a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FiQuestion1a5" name="FiQuestion1" value="-33.333" class="IntrovertExtrovert" tag="FiQuestion">
+                <label for="FiQuestion1a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FiQuestion1a6" name="FiQuestion1" value="-66.6666" class="IntrovertExtrovert" tag="FiQuestion">
+                <label for="FiQuestion1a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FiQuestion1a7" name="FiQuestion1" value="-100" class="IntrovertExtrovert" tag="FiQuestion"> 
+                <label for="FiQuestion1a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            </div>
+            <br>
+            <p style="font-weight:bold; color:#034EA2;">You think before you speak, instead of reasoning things out by speaking them</p> 
+            <div class="something">
+                
+            <!-- Ni points for agree -->
+                <input type="radio" id="NiQuestion1a1" name="NiQuestion1" value="100" class="IntrovertExtrovert"> 
+                <label for="NiQuestion1a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion1a2" name="NiQuestion1" value="66.666" class="IntrovertExtrovert">
+                <label for="NiQuestion1a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion1a3" name="NiQuestion1" value="33.333" class="IntrovertExtrovert">
+                <label for="NiQuestion1a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion1a4" name="NiQuestion1" value="0" class="IntrovertExtrovert"> 
+                <label for="NiQuestion1a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion1a5" name="NiQuestion1" value="-33.333" class="IntrovertExtrovert">
+                <label for="NiQuestion1a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion1a6" name="NiQuestion1" value="-66.6666" class="IntrovertExtrovert">
+                <label for="NiQuestion1a6"class="radio_label" id="disagree">Disagree</label> <br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion1a7" name="NiQuestion1" value="-100" class="IntrovertExtrovert"> 
+                <label for="NiQuestion1a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            </div>
+            <br>
+            <p style="font-weight:bold; color:#034EA2;">You have difficulty meeting new people IRL</p> 
+            <div class="something">
+                
+                <input type="radio" id="question15a1" name="question15" value="100" class="IntrovertExtrovert"> 
+                <label for="question15a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question15a2" name="question15" value="66.666" class="IntrovertExtrovert">
+                <label for="question15a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question15a3" name="question15" value="33.333" class="IntrovertExtrovert">
+                <label for="question15a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question15a4" name="question15" value="0" class="IntrovertExtrovert"> 
+                <label for="question15a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question15a5" name="question15" value="-33.333" class="IntrovertExtrovert">
+                <label for="question15a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question15a6" name="question15" value="-66.6666" class="IntrovertExtrovert">
+                <label for="question15a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question15a7" name="question15" value="-100" class="IntrovertExtrovert"> 
+                <label for="question15a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            </div>
+            <br>
+            <p style="font-weight:bold; color:#034EA2;">You like to spend time alone</p> 
+            <div class="something">
+               
+                <input type="radio" id="question16a1" name="question16" value="100" class="IntrovertExtrovert"> 
+                <label for="question16a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question16a2" name="question16" value="66.666" class="IntrovertExtrovert">
+                <label for="question16a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question16a3" name="question16" value="33.333" class="IntrovertExtrovert">
+                <label for="question16a3"class="radio_label" id="partially_agree">Partially agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question16a4" name="question16" value="0" class="IntrovertExtrovert"> 
+                <label for="question16a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question16a5" name="question16" value="-33.333" class="IntrovertExtrovert">
+                <label for="question16a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question16a6" name="question16" value="-66.6666" class="IntrovertExtrovert">
+                <label for="question16a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="question16a7" name="question16" value="-100" class="IntrovertExtrovert"> 
+                <label for="question16a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            </div>
+            <br>
+
+            <p style="font-weight:bold; color:#034EA2;">You don’t automatically subscribe to “Univesal Truths” (there is an additional "inner" filter for you to do so)</p> 
+            <div class="something">
+           
+            <!-- Fi points for agree -->
+                <input type="radio" id="TiQuestion1a1" name="TiQuestion1" value="100" tag="TiQuestion"> 
+                <label for="TiQuestion1a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="TiQuestion1a2" name="TiQuestion1" value="66.666" tag="TiQuestion">
+                <label for="TiQuestion1a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="TiQuestion1a3" name="TiQuestion1" value="33.333" tag="TiQuestion">
+                <label for="TiQuestion1a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="TiQuestion1a4" name="TiQuestion1" value="0" tag="TiQuestion"> 
+                <label for="TiQuestion1a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="TiQuestion1a5" name="TiQuestion1" value="-33.333" tag="TiQuestion">
+                <label for="TiQuestion1a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="TiQuestion1a6" name="TiQuestion1" value="-66.6666" tag="TiQuestion">
+                <label for="TiQuestion1a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="TiQuestion1a7" name="TiQuestion1" value="-100" tag="TiQuestion"> 
+                <label for="TiQuestion1a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            </div>
+            <br>
+            <p style="font-weight:bold; color:#034EA2;">You prefer working in quiet, independent environments</p> 
+            <div class="something">
+               
+                <input type="radio" id="NiQuestion2a1" name="NiQuestion2" value="100" class="IntrovertExtrovert"> 
+                <label for="NiQuestion2a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion2a2" name="NiQuestion2" value="66.666" class="IntrovertExtrovert">
+                <label for="NiQuestion2a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion2a3" name="NiQuestion2" value="33.333" class="IntrovertExtrovert">
+                <label for="NiQuestion2a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion2a4" name="NiQuestion2" value="0" class="IntrovertExtrovert"> 
+                <label for="NiQuestion2a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion2a5" name="NiQuestion2" value="-33.333" class="IntrovertExtrovert">
+                <label for="NiQuestion2a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion2a6" name="NiQuestion2" value="-66.6666" class="IntrovertExtrovert">
+                <label for="NiQuestion2a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion2a7" name="NiQuestion2" value="-100" class="IntrovertExtrovert"> 
+                <label for="NiQuestion2a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            </div>
+            <br>
+            <p style="font-weight:bold; color:#034EA2;">You learn quickly (and mostly) from your mistakes? </p> 
+            <div class="something">
+            <!-- Fe points for agree -->
+            <input type="radio" id="SiQuestion5a1" name="SiQuestion5" value="100" tag="SiQuestion"> 
+            <label for="SiQuestion5a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion5a2" name="SiQuestion5" value="66.666" class="FeelerThinker" tag="SiQuestion">
+            <label for="SiQuestion5a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion5a3" name="SiQuestion5" value="33.333" class="FeelerThinker" tag="SiQuestion">
+            <label for="SiQuestion5a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion5a4" name="SiQuestion5" value="0" class="FeelerThinker" tag="SiQuestion"> 
+            <label for="SiQuestion5a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion5a5" name="SiQuestion5" value="-33.333" class="FeelerThinker" tag="SiQuestion">
+            <label for="SiQuestion5a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion5a6" name="SiQuestion5" value="-66.6666" class="FeelerThinker" tag="SiQuestion">
+            <label for="SiQuestion5a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion5a7" name="SiQuestion5" value="-100" class="FeelerThinker" tag="SiQuestion"> 
+            <label for="SiQuestion5a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+            <p style="font-weight:bold; color:#034EA2;">You don't enjoy being at the center of attention?</p> 
+            <div class="something">
+            <!-- Se points for disagree  -->
+                <input type="radio" id="NiQuestion3a1" name="NiQuestion3" value="100" class="IntrovertExtrovert"> 
+                <label for="NiQuestion3a1" class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion3a2" name="NiQuestion3" value="66.666" class="IntrovertExtrovert">
+                <label for="NiQuestion3a2" class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion3a3" name="NiQuestion3" value="33.333" class="IntrovertExtrovert">
+                <label for="NiQuestion3a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion3a4" name="NiQuestion3" value="0" class="IntrovertExtrovert"> 
+                <label for="NiQuestion3a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion3a5" name="NiQuestion3" value="-33.333" class="IntrovertExtrovert">
+                <label for="NiQuestion3a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion3a6" name="NiQuestion3" value="-66.6666" class="IntrovertExtrovert">
+                <label for="NiQuestion3a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="NiQuestion3a7" name="NiQuestion3" value="-100" class="IntrovertExtrovert"> 
+                <label for="NiQuestion3a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            </div>
+            <br>
+            <p style="font-weight:bold; color:#034EA2;">You being indoors while it's raining outside gives you strange, at times unexplicable comfort, motivation and energy?</p> 
+            <div class="something">
+           
+            <!-- Fi points for agree -->
+                <input type="radio" id="FiQuestion2a1" name="FiQuestion2" value="100" class="IntrovertExtrovert" tag="FiQuestion"> 
+                <label for="FiQuestion2a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FiQuestion2a2" name="FiQuestion2" value="66.666" class="IntrovertExtrovert" tag="FiQuestion">
+                <label for="FiQuestion2a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FiQuestion2a3" name="FiQuestion2" value="33.333" class="IntrovertExtrovert" tag="FiQuestion">
+                <label for="FiQuestion2a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FiQuestion2a4" name="FiQuestion2" value="0" class="IntrovertExtrovert" tag="FiQuestion"> 
+                <label for="FiQuestion2a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FiQuestion2a5" name="FiQuestion2" value="-33.333" class="IntrovertExtrovert" tag="FiQuestion">
+                <label for="FiQuestion2a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FiQuestion2a6" name="FiQuestion2" value="-66.6666" class="IntrovertExtrovert" tag="FiQuestion">
+                <label for="FiQuestion2a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FiQuestion2a7" name="FiQuestion2" value="-100" class="IntrovertExtrovert" tag="FiQuestion"> 
+                <label for="FiQuestion2a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            </div>
+            <br>
+            <p style="font-weight:bold; color:#034EA2;">You generally don't like large social gatherings (with the exception of concerts)</p>
+            <div class="something">
+                 
+                <!-- Fe points for agree -->
+                <input type="radio" id="FeQuestion1a1" name="FeQuestion" value="100" class="IntrovertExtrovert"> 
+                <label for="FeQuestion1a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FeQuestion1a2" name="FeQuestion" value="66.666" class="IntrovertExtrovert">
+                <label for="FeQuestion1a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FeQuestion1a3" name="FeQuestion" value="33.333" class="IntrovertExtrovert">
+                <label for="FeQuestion1a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FeQuestion1a4" name="FeQuestion" value="0" class="IntrovertExtrovert"> 
+                <label for="FeQuestion1a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FeQuestion1a5" name="FeQuestion" value="-33.333" class="IntrovertExtrovert">
+                <label for="FeQuestion1a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FeQuestion1a6" name="FeQuestion" value="-66.6666" class="IntrovertExtrovert">
+                <label for="FeQuestion1a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break" style="display:none;">
+                <input type="radio" id="FeQuestion1a7" name="FeQuestion" value="-100" class="IntrovertExtrovert"> 
+                <label for="FeQuestion1a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            </div>
+            <br><br>
+            <button id="next-btn-1" class="btn btn-primary btn-lg" style="text-align:center;">Next >></button>
+        </div>
+
+
+
+        <!-- Feeler/Thinker -->
+
+        <div id="questionshere3" style="display:none; text-align:center">
+        
+            <p style="font-weight:bold; color:#034EA2;">You are guided (make decisions) by what your heart tells you</p> 
+        <div class="something">
+            <!-- Bonus Fi points for agree -->
+            <input type="radio" id="FiQuestion3a1" name="FiQuestion3" value="100" class="FeelerThinker" tag="FiQuestion"> 
+            <label for="FiQuestion3a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="FiQuestion3a2" name="FiQuestion3" value="66.666" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion3a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" style="display:none;">
+            <input type="radio" id="FiQuestion3a3" name="FiQuestion3" value="33.333" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion3a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion3a4" name="FiQuestion3" value="0" class="FeelerThinker" tag="FiQuestion"> 
+            <label for="FiQuestion3a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion3a5" name="FiQuestion3" value="-33.333" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion3a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion3a6" name="FiQuestion3" value="-66.6666" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion3a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion3a7" name="FiQuestion3" value="-100" class="FeelerThinker" tag="FiQuestion"> 
+            <label for="FiQuestion3a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">When you're at social gatherings, you don't want to impose conflict or disagreements?</p>
+        <div class="something">
+            <!-- Fe points for agree -->
+            <input type="radio" id="FeQuestion2a1" name="FeQuestion2" value="100" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion2a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion2a2" name="FeQuestion2" value="66.666" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion2a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion2a3" name="FeQuestion2" value="33.333" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion2a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion2a4" name="FeQuestion2" value="0" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion2a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion2a5" name="FeQuestion2" value="-33.333" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion2a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion2a6" name="FeQuestion2" value="-66.6666" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion2a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion2a7" name="FeQuestion2" value="-100" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion2a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You can engineer hacks or workarounds in nearly every (particularly stressful) situation?</p> 
+        <div class="something">
+            <!-- Ti points for agree -->
+            <input type="radio" id="question23a1" name="question23" value="100" class="FeelerThinker"> 
+            <label for="question23a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="question23a2" name="question13" value="66.666" class="FeelerThinker">
+            <label for="question23a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="question23a3" name="question13" value="33.333" class="FeelerThinker">
+            <label for="question23a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="question23a4" name="question23" value="0" class="FeelerThinker"> 
+            <label for="question23a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="question23a5" name="question13" value="-33.333" class="FeelerThinker">
+            <label for="question23a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="question23a6" name="question23" value="-66.6666" class="FeelerThinker">
+            <label for="question23a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="question23a7" name="question23" value="-100" class="FeelerThinker"> 
+            <label for="question23a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+
+        <p style="font-weight:bold; color:#034EA2;">7.	You compare the present with the past a lot?</p> 
+        <div class="something">
+            <!-- Ti points for agree -->
+            <input type="radio" id="SiQuestion7a1" name="SiQuestion7" value="100" tag="SiQuestion"> 
+            <label for="SiQuestion7a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion7a2" name="SiQuestion7" value="66.666" tag="SiQuestion">
+            <label for="SiQuestion7a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion7a3" name="SiQuestion7" value="33.333" tag="SiQuestion">
+            <label for="SiQuestion7a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion7a4" name="SiQuestion7" value="0" tag="SiQuestion"> 
+            <label for="SiQuestion7a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion7a5" name="SiQuestion7" value="-33.333" tag="SiQuestion">
+            <label for="SiQuestion7a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion7a6" name="SiQuestion7" value="-66.6666" tag="SiQuestion">
+            <label for="SiQuestion7a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion7a7" name="SiQuestion7" value="-100" tag="SiQuestion"> 
+            <label for="SiQuestion7a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+
+        <p style="font-weight:bold; color:#034EA2;">Your mood can change vey quickly</p> 
+        <div class="something">
+            <!-- Fi points -->
+            <input type="radio" id="FiQuestion4a1" name="FiQuestion4" value="100" class="FeelerThinker"> 
+            <label for="FiQuestion4a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion4a2" name="FiQuestion4" value="66.666" class="FeelerThinker">
+            <label for="FiQuestion4a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion4a3" name="FiQuestion4" value="33.333" class="FeelerThinker">
+            <label for="FiQuestion4a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion4a4" name="FiQuestion4" value="0" class="FeelerThinker"> 
+            <label for="FiQuestion4a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion4a5" name="FiQuestion4" value="-33.333" class="FeelerThinker">
+            <label for="FiQuestion4a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion4a6" name="FiQuestion4" value="-66.6666" class="FeelerThinker">
+            <label for="FiQuestion4a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion4a7" name="FiQuestion4" value="-100" class="FeelerThinker"> 
+            <label for="FiQuestion4a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+
+        <p style="font-weight:bold; color:#034EA2;">You hate being rushed to make a decision </p> 
+        <div class="something">
+            <!-- Fi points -->
+            <input type="radio" id="TiQuestion2a1" name="TiQuestion2" value="100" tag="TiQuestion"> 
+            <label for="TiQuestion2a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion2a2" name="TiQuestion2" value="66.666" tag="TiQuestion">
+            <label for="TiQuestion2a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion2a3" name="TiQuestion2" value="33.333" tag="TiQuestion">
+            <label for="TiQuestion2a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion2a4" name="TiQuestion2" value="0" tag="TiQuestion"> 
+            <label for="TiQuestion2a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion2a5" name="TiQuestion2" value="-33.333" tag="TiQuestion">
+            <label for="TiQuestion2a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion2a6" name="TiQuestion2" value="-66.6666" tag="TiQuestion">
+            <label for="TiQuestion2a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion2a7" name="TiQuestion2" value="-100" tag="TiQuestion"> 
+            <label for="TiQuestion2a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+
+        <p style="font-weight:bold; color:#034EA2;">You have empathy and can easily grasp collective moods/emotions</p> 
+        <div class="something"> 
+            <!-- Fe for agree, T disagree -->
+            <input type="radio" id="FeQuestion3a1" name="FeQuestion3" value="100" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion3a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion3a2" name="FeQuestion3" value="66.666" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion3a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion3a3" name="FeQuestion3" value="33.333" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion3a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion3a4" name="FeQuestion3" value="0" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion3a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion3a5" name="FeQuestion3" value="-33.333" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion3a5"class="radio_label" id="partially_disagree">Partially disgree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion3a6" name="FeQuestion3" value="-66.6666" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion3a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion3a7" name="FeQuestion3" value="-100" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion3a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You are interested in the solution of objective/technical problems instead of social ones?</p> 
+        <div class="something">
+            <!-- Te point for agree -->
+            <input type="radio" id="TeQuestion5a1" name="TeQuestion5" value="100" class="FeelerThinker" tag="TeQuestion"> 
+            <label for="TeQuestion5a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion5a2" name="TeQuestion5" value="66.666" class="FeelerThinker" tag="TeQuestion">
+            <label for="TeQuestion5a2"class="radio_label" id="agree" >Agree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion5a3" name="TeQuestion5" value="33.333" class="FeelerThinker" tag="TeQuestion">
+            <label for="TeQuestion5a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion5a4" name="TeQuestion5" value="0" class="FeelerThinker" tag="TeQuestion"> 
+            <label for="TeQuestion5a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion5a5" name="TeQuestion5" value="-33.333" class="FeelerThinker" tag="TeQuestion">
+            <label for="TeQuestion5a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion5a6" name="TeQuestion5" value="-66.6666" class="FeelerThinker" tag="TeQuestion">
+            <label for="TeQuestion5a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion5a7" name="TeQuestion5" value="-100" class="FeelerThinker" tag="TeQuestion"> 
+            <label for="TeQuestion5a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You find ideas and things more interesting than people?</p> 
+        <div class="something">
+            <!-- Ne points for agree -->
+            <input type="radio" id="NeQuestion1a1" name="NeQuestion1" value="100" class="FeelerThinker"> 
+            <label for="NeQuestion1a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion1a2" name="NeQuestion1" value="66.666" class="FeelerThinker">
+            <label for="NeQuestion1a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion1a3" name="NeQuestion1" value="33.333" class="FeelerThinker">
+            <label for="NeQuestion1a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion1a4" name="NeQuestion1" value="0" class="FeelerThinker"> 
+            <label for="NeQuestion1a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion1a5" name="NeQuestion1" value="-33.333" class="FeelerThinker">
+            <label for="NeQuestion1a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion1a6" name="NeQuestion1" value="-66.6666" class="FeelerThinker">
+            <label for="NeQuestion1a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion1a7" name="NeQuestion1" value="-100" class="FeelerThinker"> 
+            <label for="NeQuestion1a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You can easily create instructions for others to follow</p> 
+        <div class="something">
+            <!-- Ne points for agree -->
+            <input type="radio" id="TeQuestion6a1" name="TeQuestion6" value="100" tag="TeQuestion"> 
+            <label for="TeQuestion6a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion6a2" name="TeQuestion6" value="66.666" tag="TeQuestion">
+            <label for="TeQuestion6a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion6a3" name="TeQuestion6" value="33.333" tag="TeQuestion">
+            <label for="TeQuestion6a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion6a4" name="TeQuestion6" value="0" tag="TeQuestion"> 
+            <label for="TeQuestion6a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion6a5" name="TeQuestion6" value="-33.333" tag="TeQuestion">
+            <label for="TeQuestion6a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion6a6" name="TeQuestion6" value="-66.6666" tag="TeQuestion">
+            <label for="TeQuestion6a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion6a7" name="TeQuestion6" value="-100" tag="TeQuestion"> 
+            <label for="TeQuestion6a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You have a lot of empathy for the less fortunate?</p> 
+        <div class="something">
+            <!-- Fe points for agree -->
+            <input type="radio" id="FeQuestion4a1" name="FeQuestion4" value="100" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion4a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion4a2" name="FeQuestion4" value="66.666" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion4a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion4a3" name="FeQuestion4" value="33.333" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion4a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion4a4" name="FeQuestion4" value="0" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion4a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion4a5" name="FeQuestion4" value="-33.333" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion4a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion4a6" name="FeQuestion4" value="-66.6666" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion4a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion4a7" name="FeQuestion4" value="-100" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion4a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You don't like to cause any conflict at social gatherings</p> 
+        <div class="something">
+            <!-- Fe points for agree-->
+            <input type="radio" id="FeQuestion5a1" name="FeQuestion5" value="100" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion5a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion5a2" name="FeQuestion5" value="66.666" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion5a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion5a3" name="FeQuestion5" value="33.333" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion5a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion5a4" name="FeQuestion5" value="0" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion5a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion5a5" name="FeQuestion5" value="-33.333" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion5a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion5a6" name="FeQuestion5" value="-66.6666" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion5a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion5a7" name="FeQuestion5" value="-100" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion5a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        
+        <p style="font-weight:bold; color:#034EA2;">You are an effective planner and organizer</p> 
+        <div class="something">
+            <!-- Ne points for agree -->
+            <input type="radio" id="TeQuestion7a1" name="TeQuestion7" value="100" tag="TeQuestion"> 
+            <label for="TeQuestion7a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion7a2" name="TeQuestion7" value="66.666" tag="TeQuestion">
+            <label for="TeQuestion7a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion7a3" name="TeQuestion7" value="33.333" tag="TeQuestion">
+            <label for="TeQuestion7a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion7a4" name="TeQuestion7" value="0" tag="TeQuestion"> 
+            <label for="TeQuestion7a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion7a5" name="TeQuestion7" value="-33.333" tag="TeQuestion">
+            <label for="TeQuestion7a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion7a6" name="TeQuestion7" value="-66.6666" tag="TeQuestion">
+            <label for="TeQuestion7a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion7a7" name="TeQuestion7" value="-100" tag="TeQuestion"> 
+            <label for="TeQuestion7a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You have a deep value system which is very important to you</p>
+        <div class="something">
+             <!-- Fi points for agree -->
+            <input type="radio" id="FiQuestion5a1" name="FiQuestion5" value="100" class="FeelerThinker" tag="FiQuestion"> 
+            <label for="FiQuestion5a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion5a2" name="FiQuestion5" value="66.666" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion5a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" tag="FiQuestion">
+            <input type="radio" id="FiQuestion5a3" name="FiQuestion5" value="33.333" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion5a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion5a4" name="FiQuestion5" value="0" class="FeelerThinker" tag="FiQuestion"> 
+            <label for="FiQuestion5a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion5a5" name="FiQuestion5" value="-33.333" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion5a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion5a6" name="FiQuestion5" value="-66.6666" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion5a6"class="radio_label"id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion5a7" name="FiQuestion5" value="-100" class="FeelerThinker" tag="FiQuestion"> 
+            <label for="FiQuestion5a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            <br>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You strive to be a good person constantly</p>
+        <div class="something">
+             <!-- Fi points for agree -->
+            <input type="radio" id="FiQuestion6a1" name="FiQuestion6" value="100" class="FeelerThinker" tag="FiQuestion"> 
+            <label for="FiQuestion6a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion6a2" name="FiQuestion6" value="66.666" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion6a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion6a3" name="FiQuestion6" value="33.333" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion6a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion6a4" name="FiQuestion6" value="0" class="FeelerThinker" tag="FiQuestion"> 
+            <label for="FiQuestion6a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion6a5" name="FiQuestion6" value="-33.333" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion6a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion6a6" name="FiQuestion6" value="-66.6666" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion6a6"class="radio_label"id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion6a7" name="FiQuestion6" value="-100" class="FeelerThinker" tag="FiQuestion"> 
+            <label for="FiQuestion6a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            <br>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You put a lot of imperative on consistency?</p>
+        <div class="something">
+             <!-- Fi points for agree -->
+            <input type="radio" id="SiQuestion3a1" name="SiQuestion3" value="100" tag="SiQuestion"> 
+            <label for="SiQuestion3a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion3a2" name="SiQuestion3" value="66.666" tag="SiQuestion">
+            <label for="SiQuestion3a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion3а3" name="SiQuestion3" value="33.333" tag="SiQuestion">
+            <label for="SiQuestion3a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion3a4" name="SiQuestion3" value="0"tag="SiQuestion"> 
+            <label for="SiQuestion3a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion3a5" name="SiQuestion3" value="-33.333" tag="SiQuestion">
+            <label for="SiQuestion3a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion3a6" name="SiQuestion3" value="-66.6666" tag="SiQuestion">
+            <label for="SiQuestion3a6"class="radio_label"id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion3a7" name="SiQuestion3" value="-100" tag="SiQuestion"> 
+            <label for="SiQuestion3a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            <br>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">Giving criticism to others can be tough for you</p>
+        <div class="something">
+             <!-- Fi points for agree -->
+            <input type="radio" id="FeQuestion6a1" name="FeQuestion6" value="100" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion6a2"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion6a2" name="FeQuestion6" value="66.666" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion6a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion6a3" name="FeQuestion6" value="33.333" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion6a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion6a4" name="FeQuestion6" value="0" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion6a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion6a5" name="FeQuestion6" value="-33.333" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion6a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion6a6" name="FeQuestion6" value="-66.6666" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion6a6"class="radio_label"id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion6a7" name="FeQuestion6" value="-100" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion6a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            <br>
+        </div>
+
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You have very strict criteria or which social behavior is or isn’t acceptable</p>
+        <div class="something">
+             <!-- Fi points for agree -->
+            <input type="radio" id="FeQuestion7a1" name="FeQuestion7" value="100" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion7a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion7a2" name="FeQuestion7" value="66.666" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion7a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion7a3" name="FeQuestion7" value="33.333" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion7a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion7a4" name="FeQuestion7" value="0" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion7a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion7a5" name="FeQuestion7" value="-33.333" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion7a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion7a6" name="FeQuestion7" value="-66.6666" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion7a6"class="radio_label"id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion7a7" name="FeQuestion7" value="-100" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion7a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            <br>
+        </div>
+
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You feel very deeply</p>
+        <div class="something">
+             <!-- Fi points for agree -->
+            <input type="radio" id="FiQuestion7a1" name="FiQuestion7" value="100" class="FeelerThinker" tag="FiQuestion"> 
+            <label for="FiQuestion7a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion7a2" name="FiQuestion7" value="66.666" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion7a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion7a3" name="FiQuestion7" value="33.333" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion7a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion7a4" name="FiQuestion7" value="0" class="FeelerThinker" tag="FiQuestion"> 
+            <label for="FiQuestion7a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion7a5" name="FiQuestion7" value="-33.333" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion7a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion7a6" name="FiQuestion7" value="-66.6666" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion7a6"class="radio_label"id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion7a7" name="FiQuestion7" value="-100" class="FeelerThinker" tag="FiQuestion"> 
+            <label for="FiQuestion7a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            <br>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You want to figure out your own way to get things done </p>
+        <div class="something">
+             <!-- Fi points for agree -->
+            <input type="radio" id="TiQuestion3a1" name="TiQuestion3" value="100" tag="TiQuestion"> 
+            <label for="TiQuestion3a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion3a2" name="TiQuestion3" value="66.666" tag="TiQuestion">
+            <label for="TiQuestion3a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion3a3" name="TiQuestion3" value="33.333"  tag="TiQuestion">
+            <label for="TiQuestion3a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion3a4" name="TiQuestion3" value="0"  tag="TiQuestion"> 
+            <label for="TiQuestion3a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion3a5" name="TiQuestion3" value="-33.333"  tag="TiQuestion">
+            <label for="TiQuestion3a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion3a6" name="TiQuestion3" value="-66.6666"  tag="TiQuestion">
+            <label for="TiQuestion3a6"class="radio_label"id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion3a7" name="TiQuestion3" value="-100"  tag="TiQuestion"> 
+            <label for="TiQuestion3a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            <br>
+        </div>
+        <br>
+
+        <p style="font-weight:bold; color:#034EA2;">You want to make an impactful difference in the world, no matter how impossible that seems</p>
+        <div class="something">
+             <!-- Fi points for agree -->
+            <input type="radio" id="FiQuestion8a1" name="FiQuestion8" value="100" class="FeelerThinker" tag="FiQuestion"> 
+            <label for="FiQuestion8a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion8a2" name="FiQuestion8" value="66.666" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion8a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion8a3" name="FiQuestion8" value="33.333" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion8a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion8a4" name="FiQuestion8" value="0" class="FeelerThinker" tag="FiQuestion"> 
+            <label for="FiQuestion8a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion8a5" name="FiQuestion8" value="-33.333" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion8a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion8a6" name="FiQuestion8" value="-66.6666" class="FeelerThinker" tag="FiQuestion">
+            <label for="FiQuestion8a6"class="radio_label"id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="FiQuestion8a7" name="FiQuestion8" value="-100" class="FeelerThinker" tag="FiQuestion"> 
+            <label for="FiQuestion8a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            <br>
+        </div>
+
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You’re a natural peace-maker, almost even people-pleaser</p>
+        <div class="something">
+             <!-- Fi points for agree -->
+            <input type="radio" id="FeQuestion8a1" name="FeQuestion8" value="100" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion8a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion8a2" name="FeQuestion8" value="66.666" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion8a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion8a3" name="FeQuestion8" value="33.333" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion8a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion8a4" name="FeQuestion8" value="0" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion8a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion8a5" name="FeQuestion8" value="-33.333" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion8a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion8a6" name="FeQuestion8" value="-66.6666" class="FeelerThinker" tag="FeQuestion">
+            <label for="FeQuestion8a6"class="radio_label"id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="FeQuestion8a7" name="FeQuestion8" value="-100" class="FeelerThinker" tag="FeQuestion"> 
+            <label for="FeQuestion8a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+            <br>
+        </div>
+        <br><br>
+            <button id="next-btn-3" class="btn btn-primary btn-lg" style="text-align:center;">Next >></button>
+        </div>
+
+        <!-- INTUITIVE/SENSOR -->
+        <div id="questionshere4" style="display:none; text-align:center;">
+
+        <p style="font-weight:bold; color:#034EA2;">When you look at a painting, you are trying to understand the painter's message instead of focusing on the colors, shapes etc?</p>
+        <div class="something">
+            <!-- Ni for agree -->
+            <input type="radio" id="NiQuestion4a1" name="NiQuestion4" value="100" class="IntuitiveSensor"> 
+            <label for="NiQuestion4a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion4a2" name="NiQuestion4" value="66.666" class="IntuitiveSensor">
+            <label for="NiQuestion4a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion4a3" name="NiQuestion4" value="33.333" class="IntuitiveSensor">
+            <label for="NiQuestion4a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion4a4" name="NiQuestion4" value="0" class="IntuitiveSensor"> 
+            <label for="NiQuestion4a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion4a5" name="NiQuestion4" value="-33.333" class="IntuitiveSensor">
+            <label for="NiQuestion4a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion4a6" name="NiQuestion4" value="-66.6666" class="IntuitiveSensor">
+            <label for="NiQuestion4a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion4a7" name="NiQuestion4" value="-100" class="IntuitiveSensor"> 
+            <label for="NiQuestion4a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You have the ability to connect the dots & find deeper meaning to surroundings very fast</p> 
+        <div class="something">
+            <!-- Ne for disagree -->
+            <input type="radio" id="NeQuestion2a1" name="NeQuestion2" value="100" class="IntuitiveSensor"> 
+            <label for="NeQuestion2a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion2a2" name="NeQuestion2" value="66.666" class="IntuitiveSensor">
+            <label for="NeQuestion2a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion2a3" name="NeQuestion2" value="33.333" class="IntuitiveSensor">
+            <label for="NeQuestion2a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion2a4" name="NeQuestion2" value="0" class="IntuitiveSensor"> 
+            <label for="NeQuestion2a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion2a5" name="NeQuestion2" value="-33.333" class="IntuitiveSensor">
+            <label for="NeQuestion2a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion2a6" name="NeQuestion2" value="-66.6666" class="IntuitiveSensor">
+            <label for="NeQuestion2a6"class="radio_label"id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion2a7" name="NeQuestion2" value="-100" class="IntuitiveSensor"> 
+            <label for="NeQuestion2a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You thrive on routine and like to know what to expect?</p> 
+        <div class="something">
+            <!-- Ne for disagree -->
+            <input type="radio" id="SiQuestion6a1" name="SiQuestion6" value="100" tag="SiQuestion"> 
+            <label for="SiQuestion6a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion6a2" name="SiQuestion6" value="66.666" tag="SiQuestion">
+            <label for="SiQuestion6a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion6a3" name="SiQuestion6" value="33.333" tag="SiQuestion">
+            <label for="SiQuestion6a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion6a4" name="SiQuestion6" value="0" tag="SiQuestion"> 
+            <label for="SiQuestion6a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion6a5" name="SiQuestion6" value="-33.333" tag="SiQuestion">
+            <label for="SiQuestion6a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion6a6" name="SiQuestion6" value="-66.6666" tag="SiQuestion">
+            <label for="SiQuestion6a6"class="radio_label"id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion6a7" name="SiQuestion6" value="-100" tag="SiQuestion"> 
+            <label for="SiQuestion6a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You are excellent at seeing weaknesses in a plan </p> 
+        <div class="something">
+            <!-- Ne for disagree -->
+            <input type="radio" id="TiQuestion4a1" name="TiQuestion4" value="100" tag="TiQuestion"> 
+            <label for="TiQuestion4a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion4a2" name="TiQuestion4" value="66.666" tag="TiQuestion">
+            <label for="TiQuestion4a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion4a3" name="TiQuestion4" value="33.333" tag="TiQuestion">
+            <label for="TiQuestion4a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion4a4" name="TiQuestion4" value="0" tag="TiQuestion"> 
+            <label for="TiQuestion4a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion4a5" name="TiQuestion4" value="-33.333" tag="TiQuestion">
+            <label for="TiQuestion4a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion4a6" name="TiQuestion4" value="-66.6666" tag="TiQuestion">
+            <label for="TiQuestion4a6"class="radio_label"id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion4a7" name="TiQuestion4" value="-100" tag="TiQuestion"> 
+            <label for="TiQuestion4a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You have the ability to see things at face value without digging much deeper</p> 
+        <div class="something">
+            <!-- Se points for agree -->
+            <input type="radio" id="SeQuestion2a1" name="SeQuestion" value="100" tag="SeQuestion"> 
+            <label for="SeQuestion2a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion2a2" name="SeQuestion" value="66.666" tag="SeQuestion">
+            <label for="SeQuestion2a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion2a3" name="SeQuestion" value="33.333"  tag="SeQuestion">
+            <label for="SeQuestion2a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion2a4" name="SeQuestion" value="0"  tag="SeQuestion"> 
+            <label for="SeQuestion2a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion2a5" name="SeQuestion" value="-33.333" tag="SeQuestion">
+            <label for="SeQuestion2a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion2a6" name="SeQuestion" value="-66.6666" tag="SeQuestion">
+            <label for="SeQuestion2a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion2a7" name="SeQuestion" value="-100" tag="SeQuestion"> 
+            <label for="SeQuestion2a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You remember events as snapshots of what actually happened</p> 
+        <div class="something">
+            <!-- Si points for agree  -->
+            <input type="radio" id="question34a1" name="question34" value="100" class="IntuitiveSensor"> 
+            <label for="question34a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="question34a2" name="question34" value="66.666" class="IntuitiveSensor">
+            <label for="question34a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="question34a3" name="question34" value="33.333" class="IntuitiveSensor">
+            <label for="question34a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="question34a4" name="question34" value="0" class="IntuitiveSensor"> 
+            <label for="question34a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="question34a5" name="question34" value="-33.333" class="IntuitiveSensor">
+            <label for="question34a5"class="radio_label" id="partially_disagree">Partially Disagree</label> <br class="mobile_break">
+            <input type="radio" id="question34a6" name="question34" value="-66.6666" class="IntuitiveSensor">
+            <label for="question34a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="question34a7" name="question34" value="-100" class="IntuitiveSensor"> 
+            <label for="question34a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You pay attention to facts too much, so that you lose focus on new possibilities/perspectives?</p> 
+        <div class="something">
+            <!-- Se for agree -->
+            <input type="radio" id="SeQuestion3a1" name="SeQuestion3" value="100" tag="SeQuestion"> 
+            <label for="SeQuestion3a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion3a2" name="SeQuestion3" value="66.666" tag="SeQuestion">
+            <label for="SeQuestion3a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion3a3" name="SeQuestion3" value="33.333" tag="SeQuestion">
+            <label for="SeQuestion3a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion3a4" name="SeQuestion3" value="0" tag="SeQuestion"> 
+            <label for="SeQuestion3a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion3a5" name="SeQuestion3" value="-33.333" tag="SeQuestion">
+            <label for="SeQuestion3a5"class="radio_label" id="partially_disagree">Partially Disagree</label> 
+            <input type="radio" id="SeQuestion3a6" name="SeQuestion3" value="-66.6666" tag="SeQuestion">
+            <label for="SeQuestion3a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion3a7" name="SeQuestion3" value="-100" tag="SeQuestion"> 
+            <label for="SeQuestion3a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You are sometimes seen as "alienated" or NOT understood when explaining something</p>
+        <div class="something">
+            <!-- Ni points for aree -->
+            <input type="radio" id="NiQuestion5a1" name="NiQuestion5" value="100" class="IntuitiveSensor" tag="NiQuestion"> 
+            <label for="NiQuestion5a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion5a2" name="NiQuestion5" value="66.666" class="IntuitiveSensor" tag="NiQuestion">
+            <label for="NiQuestion5a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion5a3" name="NiQuestion5" value="33.333" class="IntuitiveSensor" tag="NiQuestion">
+            <label for="NiQuestion5a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion5a4" name="NiQuestion5" value="0" class="IntuitiveSensor" tag="NiQuestion"> 
+            <label for="NiQuestion5a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+             <input type="radio" id="NiQuestion5a5" name="NiQuestion5" value="-33.333" class="IntuitiveSensor" tag="NiQuestion">
+            <label for="NiQuestion5a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion5a6" name="NiQuestion5" value="-66.6666" class="IntuitiveSensor" tag="NiQuestion">
+            <label for="NiQuestion5a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion5a7" name="NiQuestion5" value="-100" class="IntuitiveSensor" tag="NiQuestion"> 
+            <label for="NiQuestion5a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You find abstract ideas more interesting than mere facts?</p> 
+        <div class="something">
+            <!-- Ne bonus points for agree -->
+            <input type="radio" id="NeQuestion3a1" name="NeQuestion3" value="100" class="IntuitiveSensor"> 
+            <label for="NeQuestion3a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion3a2" name="NeQuestion3" value="66.666" class="IntuitiveSensor">
+            <label for="NeQuestion3a2"class="radio_label" id="agree">Agree</label> <br class="mobile_break">
+            <input type="radio" id="NeQuestion3a3" name="NeQuestion3" value="33.333" class="IntuitiveSensor">
+            <label for="NeQuestion3a3"class="radio_label" id="partially_agree">Partially Agree</label> <br class="mobile_break">
+            <input type="radio" id="NeQuestion3a4" name="NeQuestion3" value="0" class="IntuitiveSensor"> 
+            <label for="NeQuestion3a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion3a5" name="NeQuestion3" value="-33.333" class="IntuitiveSensor">
+            <label for="NeQuestion3a5"class="radio_label" id="partially_disagree">Partially Disagree</label> <br class="mobile_break">
+            <input type="radio" id="NeQuestion3a6" name="NeQuestion3" value="-66.6666" class="IntuitiveSensor">
+            <label for="NeQuestion3a6"class="radio_label" id="disagree">Disagree</label> <br class="mobile_break">
+            <input type="radio" id="NeQuestion3a7" name="NeQuestion3" value="-100" class="IntuitiveSensor"> 
+            <label for="NeQuestion3a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You focus more on the present instead of the future?</p> 
+        <div class="something">
+            <!-- Se points for agree -->
+            <input type="radio" id="SeQuestion4a1" name="SeQuestion4" value="100" tag="SeQuestion"> 
+            <label for="SeQuestion4a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break" >
+            <input type="radio" id="SeQuestion4a2" name="SeQuestion4" value="66.666" tag="SeQuestion">
+            <label for="SeQuestion4a2"class="radio_label" id="agree">Agree</label> <br class="mobile_break">
+            <input type="radio" id="SeQuestion4a3" name="SeQuestion4" value="33.333" tag="SeQuestion">
+            <label for="SeQuestion4a3"class="radio_label" id="partially_agree">Partially Agree</label> <br class="mobile_break">
+            <input type="radio" id="SeQuestion4a4" name="SeQuestion4" value="0" tag="SeQuestion"> 
+            <label for="SeQuestion4a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion4a5" name="SeQuestion4" value="-33.333" tag="SeQuestion">
+            <label for="SeQuestion4a5"class="radio_label" id="partially_disagree">Partially Disagree</label> <br class="mobile_break">
+            <input type="radio" id="SeQuestion4a6" name="SeQuestion4" value="-66.6666" tag="SeQuestion">
+            <label for="SeQuestion4a6"class="radio_label" id="disagree">Disagree</label> <br class="mobile_break">
+            <input type="radio" id="SeQuestion4a7" name="SeQuestion4" value="-100" tag="SeQuestion"> 
+            <label for="SeQuestion4a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You are very aware of inner body sensations like hunger or illness?</p> 
+        <div class="something">
+            <input type="radio" id="SiQuestion4a1" name="SiQuestion4" value="100" tag="SiQuestion"> 
+            <label for="SiQuestion4a1" class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion4a2" name="SiQuestion4" value="66.666" tag="SiQuestion">
+            <label for="SiQuestion4a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion4a3" name="SiQuestion4" value="33.333" tag="SiQuestion">
+            <label for="SiQuestion4a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion4a4" name="SiQuestion4" value="0" tag="SiQuestion"> 
+            <label for="SiQuestion4a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion4a5" name="SiQuestion4" value="-33.333" tag="SiQuestion">
+            <label for="SiQuestion4a5"class="radio_label">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion4a6" name="SiQuestion4" value="-66.6666" tag="SiQuestion">
+            <label for="SiQuestion4a6"class="radio_label" id="disagree">Disagree</label> <br class="mobile_break">
+            <input type="radio" id="SiQuestion4a7" name="SiQuestion4" value="-100" tag="SiQuestion"> 
+            <label for="SiQuestion4a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You see things for what they could be instead of as they are</p> 
+        <div class="something">
+            <!-- Se points for agree -->
+            <!-- Ne points for disagree -->
+            <input type="radio" id="NeQuestion4a1" name="NeQuestion4" value="100" class="IntuitiveSensor"> 
+            <label for="NeQuestion4a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion4a2" name="NeQuestion4" value="66.666" class="IntuitiveSensor">
+            <label for="NeQuestion4a2"class="radio_label" id="agree">Agree</label> <br class="mobile_break" >
+            <input type="radio" id="NeQuestion4a3" name="NeQuestion4" value="33.333" class="IntuitiveSensor">
+            <label for="NeQuestion4a3"class="radio_label" id="partially_agree">Partially Agree</label> <br class="mobile_break" >
+            <input type="radio" id="NeQuestion4a4" name="NeQuestion4" value="0" class="IntuitiveSensor"> 
+            <label for="NeQuestion4a4" class="radio_label" id="neutral">Neutral</label><br class="mobile_break" >
+            <input type="radio" id="NeQuestion4a5" name="NeQuestion4" value="-33.333" class="IntuitiveSensor">
+            <label for="NeQuestion4a5" class="radio_label" id="partially_disagree">Partially Disagree</label> <br class="mobile_break">
+            <input type="radio" id="NeQuestion4a6" name="NeQuestion4" value="-66.6666" class="IntuitiveSensor">
+            <label for="NeQuestion4a6"class="radio_label" id="disagree">Disagree</label> <br class="mobile_break">
+            <input type="radio" id="NeQuestion4a7" name="NeQuestion4" value="-100" class="IntuitiveSensor"> 
+            <label for="NeQuestion4a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label class="mobile_break">
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You daydream a lot</p>
+        <div class="something">
+             <!-- Se for agree -->
+            <input type="radio" id="SeQuestion5a1" name="SeQuestion5" value="100" class="IntuitiveSensor" tag="SeQuestion"> 
+            <label for="SeQuestion5a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion5a2" name="SeQuestion5" value="66.666" class="IntuitiveSensor" tag="SeQuestion">
+            <label for="SeQuestion5a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" >
+            <input type="radio" id="SeQuestion5a3" name="SeQuestion5" value="33.333" class="IntuitiveSensor" tag="SeQuestion">
+            <label for="SeQuestion5a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion5a4" name="SeQuestion5" value="0" class="IntuitiveSensor" tag="SeQuestion"> 
+            <label for="SeQuestion5a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" >
+            <input type="radio" id="SeQuestion5a5" name="SeQuestion5" value="-33.333" class="IntuitiveSensor" tag="SeQuestion">
+            <label for="SeQuestion5a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion5a6" name="SeQuestion5" value="-66.6666" class="IntuitiveSensor" tag="SeQuestion">
+            <label for="SeQuestion5a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion5a7" name="SeQuestion5" value="-100" class="IntuitiveSensor" tag="SeQuestion"> 
+            <label for="SeQuestion5a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+
+        <p style="font-weight:bold; color:#034EA2;">When you stumble upon new information, you test it against your own internal models to see if it fits?</p>
+        <div class="something">
+             <!-- Se for agree -->
+            <input type="radio" id="TiQuestion5a1" name="TiQuestion5" value="100" tag="TiQuestion"> 
+            <label for="TiQuestion5a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion5a2" name="TiQuestion5" value="66.666" tag="TiQuestion">
+            <label for="TiQuestion5a2"class="radio_label" id="agree">Agree</label><br class="mobile_break" >
+            <input type="radio" id="TiQuestion5a3" name="TiQuestion5" value="33.333" tag="TiQuestion">
+            <label for="TiQuestion5a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion5a4" name="TiQuestion5" value="0" tag="TiQuestion"> 
+            <label for="TiQuestion5a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break" >
+            <input type="radio" id="TiQuestion5a5" name="TiQuestion5" value="-33.333" tag="TiQuestion">
+            <label for="TiQuestion5a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion5a6" name="TiQuestion5" value="-66.6666" tag="TiQuestion">
+            <label for="TiQuestion5a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion5a7" name="TiQuestion5" value="-100" tag="TiQuestion"> 
+            <label for="TiQuestion5a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+
+        <p style="font-weight:bold; color:#034EA2;">You act on present experience and concrete data to produce desired results instead of past experiences or future consequences?</p> 
+        <div class="something">    
+            <input type="radio" id="SeQuestion6a1" name="SeQuestion6" tag="SeQuestion" value="100"> 
+            <label for="SeQuestion6a1" class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion6a2" name="SeQuestion6" tag="SeQuestion" value="66.666">
+            <label for="SeQuestion6a2" class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion6a3" name="SeQuestion6" tag="SeQuestion" value="33.333">
+            <label for="SeQuestion6a3" class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion6a4" name="SeQuestion6" tag="SeQuestion" value="0"> 
+            <label for="SeQuestion6a4" class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion6a5" name="SeQuestion6" tag="SeQuestion" value="-33.333">
+            <label for="SeQuestion6a5" class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion6a6" name="SeQuestion6" ctag="SeQuestion" value="-66.6666">
+            <label for="SeQuestion6a6" class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion6a7" name="SeQuestion6" tag="SeQuestion" value="-100"> 
+            <label for="SeQuestion6a7" class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+
+        <p style="font-weight:bold; color:#034EA2;">You trust your gut/instincts when making a major decision</p> 
+        <div class="something">
+            
+            <input type="radio" id="NiQuestion6a1" name="NiQuestion6" value="100" class="IntuitiveSensor" tag="NiQuestion"> 
+            <label for="NiQuestion6a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion6a2" name="NiQuestion6" value="66.666" class="IntuitiveSensor" tag="NiQuestion">
+            <label for="NiQuestion6a2"class="radio_label" id="agree" >Agree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion6a3" name="NiQuestion6" value="33.333" class="IntuitiveSensor" tag="NiQuestion">
+            <label for="NiQuestion6a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion6a4" name="NiQuestion6" value="0" class="IntuitiveSensor" tag="NiQuestion"> 
+            <label for="NiQuestion6a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion6a5" name="NiQuestion6" value="-33.333" class="IntuitiveSensor" tag="NiQuestion">
+            <label for="NiQuestion6a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion6a6" name="NiQuestion6" value="-66.6666" class="IntuitiveSensor" tag="NiQuestion">
+            <label for="NiQuestion6a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion6a7" name="NiQuestion6" value="-100" class="IntuitiveSensor" tag="NiQuestion"> 
+            <label for="NiQuestion6a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You have plenty of sudden “eureka” moments? </p> 
+        <div class="something">
+            
+            <input type="radio" id="NiQuestion7a1" name="NiQuestion7" value="100" class="IntuitiveSensor" tag="NiQuestion"> 
+            <label for="NiQuestion7a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion7a2" name="NiQuestion7" value="66.666" class="IntuitiveSensor" tag="NiQuestion">
+            <label for="NiQuestion7a2"class="radio_label" id="agree" >Agree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion7a3" name="NiQuestion7" value="33.333" class="IntuitiveSensor" tag="NiQuestion">
+            <label for="NiQuestion7a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion7a4" name="NiQuestion7" value="0" class="IntuitiveSensor" tag="NiQuestion"> 
+            <label for="NiQuestion7a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion7a5" name="NiQuestion7" value="-33.333" class="IntuitiveSensor" tag="NiQuestion">
+            <label for="NiQuestion7a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion7a6" name="NiQuestion7" value="-66.6666" class="IntuitiveSensor" tag="NiQuestion">
+            <label for="NiQuestion7a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="NiQuestion7a7" name="NiQuestion7" value="-100" class="IntuitiveSensor" tag="NiQuestion"> 
+            <label for="NiQuestion7a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+
+        <p style="font-weight:bold; color:#034EA2;">You’re realistic and down-to-earth most of the time</p> 
+        <div class="something">    
+            <input type="radio" id="SeQuestion7a1" name="SeQuestion7" tag="SeQuestion" value="100"> 
+            <label for="SeQuestion7a1" class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion7a2" name="SeQuestion7" tag="SeQuestion" value="66.666">
+            <label for="SeQuestion7a2" class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion7a3" name="SeQuestion7" tag="SeQuestion" value="33.333">
+            <label for="SeQuestion7a3" class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion7a4" name="SeQuestion7" tag="SeQuestion" value="0"> 
+            <label for="SeQuestion7a4" class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion7a5" name="SeQuestion7" tag="SeQuestion" value="-33.333">
+            <label for="SeQuestion7a5" class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion7a6" name="SeQuestion7" ctag="SeQuestion" value="-66.6666">
+            <label for="SeQuestion7a6" class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion7a7" name="SeQuestion7" tag="SeQuestion" value="-100"> 
+            <label for="SeQuestion7a7" class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+
+        <p style="font-weight:bold; color:#034EA2;">Anything LOGICAL/SCIENTIFIC that looks complex, sophisticated, difficult to figure out, challenges you and excites you. You're especially stimulated when you have something to figure out LOGICAL riddles, systems, etc.</p> 
+        <div class="something">
+            
+            <input type="radio" id="TiQuestion6a1" name="TiQuestion6" value="100" class="IntuitiveSensor" tag="TiQuestion"> 
+            <label for="TiQuestion6a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion6a2" name="TiQuestion6" value="66.666" class="IntuitiveSensor" tag="TiQuestion">
+            <label for="TiQuestion6a2"class="radio_label" id="agree" >Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion6a3" name="TiQuestion6" value="33.333" class="IntuitiveSensor" tag="TiQuestion">
+            <label for="TiQuestion6a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion6a4" name="TiQuestion6" value="0" class="IntuitiveSensor" tag="TiQuestion"> 
+            <label for="TiQuestion6a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion6a5" name="TiQuestion6" value="-33.333" class="IntuitiveSensor" tag="TiQuestion">
+            <label for="TiQuestion6a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion6a6" name="TiQuestion6" value="-66.6666" class="IntuitiveSensor" tag="TiQuestion">
+            <label for="TiQuestion6a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion6a7" name="TiQuestion6" value="-100" class="IntuitiveSensor" tag="TiQuestion"> 
+            <label for="TiQuestion6a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+
+        <p style="font-weight:bold; color:#034EA2;">You see so many alternatives that they can have trouble focusing on just one thing </p> 
+        <div class="something">
+            
+            <input type="radio" id="NeQuestion6a1" name="NeQuestion6" value="100" class="IntuitiveSensor" tag="NeQuestion"> 
+            <label for="NeQuestion6a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion6a2" name="NeQuestion6" value="66.666" class="IntuitiveSensor" tag="NeQuestion">
+            <label for="NeQuestion6a2"class="radio_label" id="agree" >Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion6a3" name="NeQuestion6" value="33.333" class="IntuitiveSensor" tag="NeQuestion">
+            <label for="NeQuestion6a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion6a4" name="NeQuestion6" value="0" class="IntuitiveSensor" tag="NeQuestion"> 
+            <label for="NeQuestion6a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion6a5" name="NeQuestion6" value="-33.333" class="IntuitiveSensor" tag="NeQuestion">
+            <label for="NeQuestion6a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion6a6" name="NeQuestion6" value="-66.6666" class="IntuitiveSensor" tag="NeQuestion">
+            <label for="NeQuestion6a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion6a7" name="NeQuestion6" value="-100" class="IntuitiveSensor" tag="NeQuestion"> 
+            <label for="NeQuestion6a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You have the power to find hidden patterns, possibilities, and potentials in ideas and concepts</p> 
+        <div class="something">
+            
+            <input type="radio" id="NeQuestion7a1" name="NeQuestion7" value="100" class="IntuitiveSensor" tag="NeQuestion"> 
+            <label for="NeQuestion7a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion7a2" name="NeQuestion7" value="66.666" class="IntuitiveSensor" tag="NeQuestion">
+            <label for="NeQuestion7a2"class="radio_label" id="agree" >Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion7a3" name="NeQuestion7" value="33.333" class="IntuitiveSensor" tag="NeQuestion">
+            <label for="NeQuestion7a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion7a4" name="NeQuestion7" value="0" class="IntuitiveSensor" tag="NeQuestion"> 
+            <label for="NeQuestion7a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion7a5" name="NeQuestion7" value="-33.333" class="IntuitiveSensor" tag="NeQuestion">
+            <label for="NeQuestion7a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion7a6" name="NeQuestion7" value="-66.6666" class="IntuitiveSensor" tag="NeQuestion">
+            <label for="NeQuestion7a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion7a7" name="NeQuestion7" value="-100" class="IntuitiveSensor" tag="NeQuestion"> 
+            <label for="NeQuestion7a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You can remember significant people and moments from past experiences in vivid detail?</p> 
+        <div class="something">
+            
+            <input type="radio" id="SiQuestion1a1" name="SiQuestion1" value="100" tag="SiQuestion"> 
+            <label for="SiQuestion1a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion1a2" name="SiQuestion1" value="66.666" tag="SiQuestion">
+            <label for="SiQuestion1a2"class="radio_label" id="agree" >Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion1a3" name="SiQuestion1" value="33.333" tag="SiQuestion">
+            <label for="SiQuestion1a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion1a4" name="SiQuestion1" value="0" tag="SiQuestion"> 
+            <label for="SiQuestion1a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion1a5" name="SiQuestion1" value="-33.333" tag="SiQuestion">
+            <label for="SiQuestion1a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion1a6" name="SiQuestion1" value="-66.6666"tag="SiQuestion">
+            <label for="SiQuestion1a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion1a7" name="SiQuestion1" value="-100" tag="SiQuestion"> 
+            <label for="SiQuestion1a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+
+        <p style="font-weight:bold; color:#034EA2;">You’re bored by theory and don't prefer book learning</p> 
+        <div class="something">    
+            <input type="radio" id="SeQuestion8a1" name="SeQuestion8" tag="SeQuestion" value="100"> 
+            <label for="SeQuestion8a1" class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion8a2" name="SeQuestion8" tag="SeQuestion" value="66.666">
+            <label for="SeQuestion8a2" class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion8a3" name="SeQuestion8" tag="SeQuestion" value="33.333">
+            <label for="SeQuestion8a3" class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion8a4" name="SeQuestion8" tag="SeQuestion" value="0"> 
+            <label for="SeQuestion8a4" class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion8a5" name="SeQuestion8" tag="SeQuestion" value="-33.333">
+            <label for="SeQuestion8a5" class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion8a6" name="SeQuestion8" ctag="SeQuestion" value="-66.6666">
+            <label for="SeQuestion8a6" class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="SeQuestion8a7" name="SeQuestion8" tag="SeQuestion" value="-100"> 
+            <label for="SeQuestion8a7" class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">When speaking, ideas come easily to you and you can rapidly turn those ideas into words, whole sentences and complete stories</p> 
+        <div class="something">
+            
+            <input type="radio" id="NeQuestion8a1" name="NeQuestion8" value="100" class="IntuitiveSensor" tag="NeQuestion"> 
+            <label for="NeQuestion8a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion8a2" name="NeQuestion8" value="66.666" class="IntuitiveSensor" tag="NeQuestion">
+            <label for="NeQuestion8a2"class="radio_label" id="agree" >Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestio8a3" name="NeQuestion8" value="33.333" class="IntuitiveSensor" tag="NeQuestion">
+            <label for="NeQuestion8a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion8a4" name="NeQuestion8" value="0" class="IntuitiveSensor" tag="NeQuestion"> 
+            <label for="NeQuestion8a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion8a5" name="NeQuestion8" value="-33.333" class="IntuitiveSensor" tag="NeQuestion">
+            <label for="NeQuestion8a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion8a6" name="NeQuestion8" value="-66.6666" class="IntuitiveSensor" tag="NeQuestion">
+            <label for="NeQuestion8a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion8a7" name="NeQuestion8" value="-100" class="IntuitiveSensor" tag="NeQuestion"> 
+            <label for="NeQuestion8a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+
+        <p style="font-weight:bold; color:#034EA2;">You quickly notice when something is out of place?</p> 
+        <div class="something">
+            
+            <input type="radio" id="SiQuestion2a1" name="SiQuestion2" value="100" tag="SiQuestion"> 
+            <label for="SiQuestion2a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion2a2" name="SiQuestion2" value="66.666" tag="SiQuestion">
+            <label for="SiQuestion2a2"class="radio_label" id="agree" >Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion2a3" name="SiQuestion2" value="33.333"tag="SiQuestion">
+            <label for="SiQuestion2a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion2a4" name="SiQuestion2" value="0" tag="SiQuestion"> 
+            <label for="SiQuestion2a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion2a5" name="SiQuestion2" value="-33.333" tag="SiQuestion">
+            <label for="SiQuestion2a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion2a6" name="SiQuestion2" value="-66.6666" tag="SiQuestion">
+            <label for="SiQuestion2a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion2a7" name="SiQuestion2" value="-100" tag="SiQuestion"> 
+            <label for="SiQuestion2a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+
+            <br><br>
+            <button id="next-btn-4" class="btn btn-primary btn-lg" style="text-align:center;">Next >></button>
+        </div>
+
+        <!-- ASSERTIVE / TURBULENT -->
+        <div id="questionshere5" style="display:none; text-align:center;">
+
+        <p style="font-weight:bold; color:#034EA2;">Are you a success-driven perfectionist?</p> 
+        <div class="something">      
+            <input type="radio" id="question41a1" name="question41" value="100" class="AssertiveTurbulent"> 
+            <label for="question41a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="question41a2" name="question41" value="66.666" class="AssertiveTurbulent">
+            <label for="question41a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="question41a3" name="question41" value="33.333" class="AssertiveTurbulent">
+            <label for="question41a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="question41a4" name="question41" value="0" class="AssertiveTurbulent"> 
+            <label for="question41a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="question41a5" name="question41" value="-33.333" class="AssertiveTurbulent">
+            <label for="question41a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="question41a6" name="question41" value="-66.6666" class="AssertiveTurbulent">
+            <label for="question41a6"class="radio_label" id="disagree">Disagree</label> <br class="mobile_break">
+            <input type="radio" id="question41a7" name="question41" value="-100" class="AssertiveTurbulent"> 
+            <label for="question41a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You see potential everywhere (including yourself)</p> 
+        <div class="something">
+            <input type="radio" id="NeQuestion5a1" name="NeQuestion5" value="100" class="AssertiveTurbulent"> 
+            <label for="NeQuestion5a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion5a2" name="NeQuestion5" value="66.666" class="AssertiveTurbulent">
+            <label for="NeQuestion5a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion5a3" name="NeQuestion5" value="33.333" class="AssertiveTurbulent">
+            <label for="NeQuestion5a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion5a4" name="NeQuestion5" value="0" class="AssertiveTurbulent"> 
+            <label for="NeQuestion5a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion5a5" name="NeQuestion5" value="-33.333" class="AssertiveTurbulent">
+            <label for="NeQuestion5a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion5a6" name="NeQuestion5" value="-66.6666" class="AssertiveTurbulent">
+            <label for="NeQuestion5a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="NeQuestion5a7" name="NeQuestion5" value="-100" class="AssertiveTurbulent"> 
+            <label for="NeQuestion5a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">Do you have a tendency to push yourself to the limit?</p> 
+        <div class="something">
+            <input type="radio" id="question43a1" name="question43" value="100" class="AssertiveTurbulent"> 
+            <label for="question43a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="question43a2" name="question43" value="66.666" class="AssertiveTurbulent"> 
+            <label for="question43a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="question43a3" name="question43" value="33.333" class="AssertiveTurbulent"> 
+            <label for="question43a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="question43a4" name="question43" value="0" class="AssertiveTurbulent"> 
+            <label for="question43a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="question43a5" name="question43" value="-33.333" class="AssertiveTurbulent"> 
+            <label for="question43a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="question43a6" name="question43" value="-66.6666" class="AssertiveTurbulent">
+            <label for="question43a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="question43a7" name="question43" value="-100" class="AssertiveTurbulent"> 
+            <label for="question43a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">Do you tend to obsess about the outcomes of most situations in your life?</p> 
+        <div class="something">
+            <input type="radio" id="question44a1" name="question44" value="100" class="AssertiveTurbulent"> 
+            <label for="question44a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="question44a2" name="question44" value="66.666" class="AssertiveTurbulent">
+            <label for="question44a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="question44a3" name="question44" value="33.333" class="AssertiveTurbulent">
+            <label for="question44a3"class="radio_label" id="partially_agree">Partially Agree</label> <br class="mobile_break">
+            <input type="radio" id="question44a4" name="question44" value="0" class="AssertiveTurbulent"> 
+            <label for="question44a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="question44a5" name="question44" value="-33.333" class="AssertiveTurbulent">
+            <label for="question44a5"class="radio_label" id="partially_disagree">Partially Disagree</label> <br class="mobile_break">
+            <input type="radio" id="question44a6" name="question44" value="-66.6666" class="AssertiveTurbulent">
+            <label for="question44a6"class="radio_label" id="disagree">Disagree</label> <br class="mobile_break">
+            <input type="radio" id="question44a7" name="question44" value="-100" class="AssertiveTurbulent"> 
+            <label for="question44a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You give logic and rationality priority over humane considerations</p> 
+        <div class="something">
+            
+            <input type="radio" id="TiQuestion7a1" name="TiQuestion7" value="100" tag="TiQuestion"> 
+            <label for="TiQuestion7a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion7a2" name="TiQuestion7" value="66.666" tag="TiQuestion">
+            <label for="TiQuestion7a2"class="radio_label" id="agree" >Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion7a3" name="TiQuestion7" value="33.333" tag="TiQuestion">
+            <label for="TiQuestion7a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion7a4" name="TiQuestion7" value="0" tag="TiQuestion"> 
+            <label for="TiQuestion7a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion7a5" name="TiQuestion7" value="-33.333" tag="TiQuestion">
+            <label for="TiQuestion7a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion7a6" name="TiQuestion7" value="-66.6666" tag="TiQuestion">
+            <label for="TiQuestion7a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion7a7" name="TiQuestion7" value="-100" tag="TiQuestion"> 
+            <label for="TiQuestion7a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <p style="font-weight:bold; color:#034EA2;">You don't consider yourself self-assured, even-tempered and resistant to stress?</p> 
+        <div class="something">
+            <input type="radio" id="question45a1" name="question45" value="100" class="AssertiveTurbulent"> 
+            <label for="question45a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="question45a2" name="question45" value="66.666" class="AssertiveTurbulent">
+            <label for="question45a2"class="radio_label" id="agree">Agree</label> <br class="mobile_break">
+            <input type="radio" id="question45a3" name="question45" value="33.333" class="AssertiveTurbulent">
+            <label for="question45a3"class="radio_label" id="partially_agree">Partially Agree</label> <br class="mobile_break">
+            <input type="radio" id="question45a4" name="question45" value="0" class="AssertiveTurbulent"> 
+            <label for="question45a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="question45a5" name="question45" value="-33.333" class="AssertiveTurbulent">
+            <label for="question45a5"class="radio_label" id="partially_disagree">Partially Disagree</label> <br class="mobile_break">
+            <input type="radio" id="question45a6" name="question45" value="-66.6666" class="AssertiveTurbulent">
+            <label for="question45a6"class="radio_label" id="disagree">Disagree</label> <br class="mobile_break">
+            <input type="radio" id="question45a7" name="question45" value="-100" class="AssertiveTurbulent"> 
+            <label for="question45a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You are fair with people even if you don’t like them. You will base your judgement on concrete results</p> 
+        <div class="something">
+           <!-- Si points for agree -->
+            <input type="radio" id="TeQuestion8a1" name="TeQuestion8" value="100" class="AssertiveTurbulent" tag="TeQuestion"> 
+            <label for="TeQuestion8a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion8a2" name="TeQuestion8" value="66.666" class="AssertiveTurbulent" tag="TeQuestion">
+            <label for="TeQuestion8a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion8a3" name="TeQuestion8" value="33.333" class="AssertiveTurbulent" tag="TeQuestion">
+            <label for="TeQuestion8a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion8a4" name="TeQuestion8" value="0" class="AssertiveTurbulent" tag="TeQuestion"> 
+            <label for="TeQuestion8a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion8a5" name="TeQuestion8" value="-33.333" class="AssertiveTurbulent" tag="TeQuestion">
+            <label for="TeQuestion8a5"class="radio_label">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="TeQuestion8a6" name="TeQuestion8" value="-66.6666" class="AssertiveTurbulent" tag="TeQuestion">
+            <label for="TeQuestion8a6"class="radio_label" id="disagree">Disagree</label> <br class="mobile_break">
+            <input type="radio" id="TeQuestion8a7" name="TeQuestion8" value="-100" class="AssertiveTurbulent" tag="TeQuestion"> 
+            <label for="TeQuestion8a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You hate being rushed to make a decision</p> 
+        <div class="something">
+
+            <input type="radio" id="TiQuestion8a1" name="TiQuestion8" value="100" tag="TiQuesion"> 
+            <label for="TiQuestion8a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion8a2" name="TiQuestion8" value="66.666" tag="TiQuesion">
+            <label for="TiQuestion8a2"class="radio_label" id="agree" >Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion8a3" name="TiQuestion8" value="33.333" tag="TiQuesion">
+            <label for="TiQuestion8a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion8a4" name="TiQuestion8" value="0" tag="TiQuesion"> 
+            <label for="TiQuestion8a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion8a5" name="TiQuestion8" value="-33.333" tag="TiQuesion">
+            <label for="TiQuestion8a5"class="radio_label" id="partially_disagree">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion8a6" name="TiQuestion8" value="-66.6666" tag="TiQuesion">
+            <label for="TiQuestion8a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="TiQuestion8a7" name="TiQuestion8" value="-100" tag="TiQuesion"> 
+            <label for="TiQuestion8a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div> 
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You spend a lot of time thinking about past actions or choices?</p> 
+        <div class="something">
+           <!-- Si points for agree -->
+            <input type="radio" id="SiQuestion8a1" name="SiQuestion8" value="100" class="AssertiveTurbulent" tag="SiQuestion"> 
+            <label for="SiQuestion8a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion8a2" name="SiQuestion8" value="66.666" class="AssertiveTurbulent" tag="SiQuestion">
+            <label for="SiQuestion8a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion8a3" name="SiQuestion8" value="33.333" class="AssertiveTurbulent" tag="SiQuestion">
+            <label for="SiQuestion8a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion8a4" name="SiQuestion8" value="0" class="AssertiveTurbulent" tag="SiQuestion"> 
+            <label for="SiQuestion8a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion8a5" name="SiQuestion8" value="-33.333" class="AssertiveTurbulent" tag="SiQuestion">
+            <label for="SiQuestion8a5"class="radio_label">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="SiQuestion8a6" name="SiQuestion8" value="-66.6666" class="AssertiveTurbulent" tag="SiQuestion">
+            <label for="SiQuestion8a6"class="radio_label" id="disagree">Disagree</label> <br class="mobile_break">
+            <input type="radio" id="SiQuestion8a7" name="SiQuestion8" value="-100" class="AssertiveTurbulent" tag="SiQuestion"> 
+            <label for="SiQuestion8a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You place too much value on what others think of you</p> 
+        <div class="something">
+            <input type="radio" id="question47a1" name="question47" value="100" class="AssertiveTurbulent"> 
+            <label for="question47a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="question47a2" name="question47" value="66.666" class="AssertiveTurbulent">
+            <label for="question47a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+             <input type="radio" id="question47a3" name="question47" value="33.333" class="AssertiveTurbulent">
+            <label for="question47a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="question47a4" name="question47" value="0" class="AssertiveTurbulent"> 
+            <label for="question47a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="question47a5" name="question47" value="-33.333" class="AssertiveTurbulent">
+            <label for="question47a5"class="radio_label">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="question47a6" name="question47" value="-66.6666" class="AssertiveTurbulent">
+            <label for="question47a6"class="radio_label" id="disagree">Disagree</label><br class="mobile_break">
+            <input type="radio" id="question47a7" name="question47" value="-100" class="AssertiveTurbulent"> 
+            <label for="question47a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You notice little problems, try and fix them before they become larger ones?</p> 
+        <div class="something">
+            <input type="radio" id="question48a1" name="question48" value="100" class="AssertiveTurbulent"> 
+            <label for="question48a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="question48a2" name="question48" value="66.666" class="AssertiveTurbulent">
+            <label for="question48a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="question48a3" name="question48" value="33.333" class="AssertiveTurbulent">
+            <label for="question48a3"class="radio_label" id="partially_agree">Partially Agree</label> <br class="mobile_break">
+            <input type="radio" id="question48a4" name="question48" value="0" class="AssertiveTurbulent"> 
+            <label for="question48a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="question48a5" name="question48" value="-33.333" class="AssertiveTurbulent">
+            <label for="question48a5"class="radio_label">Partially Disagree</label> <br class="mobile_break">
+            <input type="radio" id="question48a6" name="question48" value="-66.6666" class="AssertiveTurbulent">
+            <label for="question48a6"class="radio_label" id="disagree">Disagree</label> <br class="mobile_break">
+            <input type="radio" id="questio28a7" name="question48" value="-100" class="AssertiveTurbulent"> 
+            <label for="questio28a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        
+        <p style="font-weight:bold; color:#034EA2;">You absolutely despise stagnation?</p> 
+        <div class="something">
+            <input type="radio" id="question49a1" name="question49" value="100" class="AssertiveTurbulent"> 
+            <label for="question49a1" class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="question49a2" name="question49" value="66.666" class="AssertiveTurbulent">
+            <label for="question49a2"class="radio_label" id="agree">Agree</label><br class="mobile_break">
+            <input type="radio" id="question49a3" name="question49" value="33.333" class="AssertiveTurbulent">
+            <label for="question49a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="question49a4" name="question49" value="0" class="AssertiveTurbulent"> 
+            <label for="question49a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="question49a5" name="question49" value="-33.333" class="AssertiveTurbulent">
+            <label for="question49a5"class="radio_label">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="question49a6" name="question49" value="-66.6666" class="AssertiveTurbulent">
+            <label for="question49a6"class="radio_label" id="disagree">Disagree</label> <br class="mobile_break">
+            <input type="radio" id="question49a7" name="question49" value="-100" class="AssertiveTurbulent"> 
+            <label for="question49a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+        <br>
+        <p style="font-weight:bold; color:#034EA2;">You often plan out how to appear "normal"?</p>
+        <div class="something">
+            <input type="radio" id="question50a1" name="question50" value="100" class="AssertiveTurbulent"> 
+            <label for="question50a1"class="radio_label" id="strongly_agree">Strongly Agree</label><br class="mobile_break">
+            <input type="radio" id="question50a2" name="question50" value="66.666" class="AssertiveTurbulent">
+            <label for="question50a2"class="radio_label" id="agree">Agree</label> <br class="mobile_break">
+            <input type="radio" id="question50a3" name="question50" value="33.333" class="AssertiveTurbulent">
+            <label for="question50a3"class="radio_label" id="partially_agree">Partially Agree</label><br class="mobile_break">
+            <input type="radio" id="question50a4" name="question50" value="0" class="AssertiveTurbulent"> 
+            <label for="question50a4"class="radio_label" id="neutral">Neutral</label><br class="mobile_break">
+            <input type="radio" id="question50a5" name="question50" value="-33.333" class="AssertiveTurbulent">
+            <label for="question50a5"class="radio_label">Partially Disagree</label><br class="mobile_break">
+            <input type="radio" id="question50a6" name="question50" value="-66.6666" class="AssertiveTurbulent">
+            <label for="question50a6"class="radio_label" id="disagree">Disagree</label> <br class="mobile_break">
+            <input type="radio" id="question50a7" name="question50" value="-100" class="AssertiveTurbulent"> 
+            <label for="question50a7"class="radio_label" id="strongly_disagree">Strongly Disagree</label>
+        </div>
+            <br><br>
+            <button id="next-btn-5" class="btn btn-primary btn-lg" style="text-align:center;" tag="showResultButton">Show Me The Results</button>
+        </div>
+        <div id="showResults" class="results" style="visibility:hidden;">
+            <h2 id="showFourLetters" style="text-align: center;"><span id="showFirst"></span><span id="showSecond"></span>
+                <span id="showThird"></span><span id="showFourth"></span>-<span id="showFifth"></span></h2>
+            <h1 id="linkToType"></h1>
+            <h3 id="showResultJudgerPerceiver"></h3>
+            <h3 id="showResultIntrovertExtrovert"></h3>
+            <h3 id="showResultFeelerThinker"></h3>
+            <h3 id="showResultIntuitiveSensor"></h3>
+            <h3 id="showResultAssertiveTurbulent"></h3>
+            
+            <p id="FiScore"></p>
+            <p id="TiScore"></p>
+            <p id="NiScore"></p>
+            <p id="SiScore"></p>
+            <p id="FeScore"></p>
+            <p id="NeScore"></p>
+            <p id="SeScore"></p>
+            <p id="TeScore"></p>
+        </div>
+        <footer id="quizFooter" class="footer" style="position: fixed; 
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: 034EA2;
+        color: white;
+        text-align: center;
+        padding: 20px;">
+            <p>MBTI Personality Test Milan Ristovski &copy; 2021</p>
+        </footer>
+        
+        <script src="mbti.js"></script>
+        <script src="hamMenu.js"></script>
+    </body>
+    </html>
